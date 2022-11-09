@@ -14,7 +14,10 @@ body,
 
 body {
   font-family: sans-serif;
-  background-color: #f9fbfd;
+  background-color: #000000;
+  /* ADDED BACKGROUND IMAGE */
+  background-image: url(../images/wp3496493-matrix-wallpaper-binary.png);
+  background-size: cover;
 }
 
 .wrapper {
@@ -27,16 +30,23 @@ header {
   text-align: center;
   padding: 20px;
   padding-top: 0px;
-  color: hsl(206, 17%, 28%);
+  color: hsl(0, 0%, 100%);
+  font-size: 25px;
+  /* background-color: pink; */
+  overflow: hidden;
 }
 
 .card {
-  background-color: hsl(0, 0%, 100%);
+  box-sizing: border-box;
+  border-color: chartreuse;
+  background-color: hsl(0, 0%, 0%);
   border-radius: 5px;
   border-width: 1px;
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
-  color: hsl(206, 17%, 28%);
+  box-shadow: rgba(17, 16, 16, 0.15) 0px 2px 8px 0px;
+  color: hsl(93, 100%, 50%);
   font-size: 18px;
+  /* CHANGED BOX TEXT ALIGMENT TO MIDDLE TITLE GENERATE A PASSWORD*/
+  text-align: center;
   margin: 0 auto;
   max-width: 800px;
   padding: 30px 40px;
@@ -73,12 +83,13 @@ header {
 }
 
 .btn {
-  border: none;
-  background-color: hsl(360, 91%, 36%);
+  /* border: none; */
+  border-color: rgb(255, 255, 255);
+  background-color: rgb(113, 226, 14);
   border-radius: 25px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px
     0px;
-  color: hsl(0, 0%, 100%);
+  color: hsl(0, 0%, 0%);
   display: inline-block;
   font-size: 22px;
   line-height: 22px;
@@ -86,6 +97,19 @@ header {
   padding: 14px 34px;
   text-align: center;
   cursor: pointer;
+  /* ADDED OVERFLOW HIDDIN TO RED BUTTON */
+  overflow: hidden;
+}
+
+
+  /* ADDED OVERFLOW HIDDIN TO H2 GENERATE PASSWORD TITLE */
+
+h2 {
+  overflow: hidden;
+}
+/* ADDED HOVER TO GENERATE BUTTON  */
+.btn:hover {
+  background-color: rgb(255, 0, 0);
 }
 
 button[disabled] {
@@ -117,6 +141,7 @@ button[disabled] {
   resize: none;
   overflow: hidden;
 }
+
 
 @media (max-width: 690px) {
   .btn {

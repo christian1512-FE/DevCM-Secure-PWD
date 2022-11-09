@@ -1,4 +1,5 @@
-# 03 JavaScript: Password Generator
+# DevCM-PP-002-22
+MODULEE 3 CHALLENGE RANDOM PASSWORD GENERATOR.
 
 ## Your Task
 
