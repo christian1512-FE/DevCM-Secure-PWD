@@ -9,7 +9,7 @@ Users have different options in order to create a random password. The user must
 
 On this screenshot the user picked all of the option in which the random password will display in the middle box.
 
-![alt text](../DevCM-Secure-PWD/Assets/images/appmainpagescreenshot.jpg)
+![alt text](./Assets/images/appmainpagescreenshot.jpg)
 
 The user have the option to pick a password length from 8 to 128 characters. 
 
