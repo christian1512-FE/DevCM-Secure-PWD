@@ -13,34 +13,34 @@ On this screenshot the user picked all of the option in which the random passwor
 
 The user have the option to pick a password length from 8 to 128 characters. 
 
-![alt text](../DevCM-Secure-PWD/Assets/images/firstalertpwdlength.jpg)
+![alt text](./Assets/images/firstalertpwdlength.jpg)
 
 If the user pick a password length thats not between 8 - 128 an alert box will display a message letting them know that they must pick a password length thats on the follows the criteria.
-![alt text](../DevCM-Secure-PWD/Assets/images/PWDL8-128.jpg)
+![alt text](./Assets/images/PWDL8-128.jpg)
 
 If the user does not pick a number as the password length an alert box will pop up and let them know to only choose numbers.
 
-![alt text](../DevCM-Secure-PWD/Assets/images/onlynumbersforpwdlength.jpg)
+![alt text](./Assets/images/onlynumbersforpwdlength.jpg)
 
 Option for the user to choose if they want to add lowercase letters to their password. 
 
-![alt text](../DevCM-Secure-PWD/Assets/images/lowercase.jpg)
+![alt text](./Assets/images/lowercase.jpg)
 
 Options for the user to choose if they want to add uppercase letters to their password. 
 
-![alt text](../DevCM-Secure-PWD/Assets/images/uppercase.jpg)
+![alt text](./Assets/images/uppercase.jpg)
 
 Options for the user to choose if they want to add symbols to their password. 
 
-![alt text](../DevCM-Secure-PWD/Assets/images/symbols.jpg)
+![alt text](./Assets/images/symbols.jpg)
 
 Options for the user to choose if they want to add numbers to their password. 
 
-![alt text](../DevCM-Secure-PWD/Assets/images/number.jpg)
+![alt text](./Assets/images/number.jpg)
 
 If the user does not pick any option at all an alert box will display a message letting them know that they must pick at least one option. 
 
-![alt text](../DevCM-Secure-PWD/Assets/images/mustpickoneoption.jpg)
+![alt text](./Assets/images/mustpickoneoption.jpg)
 
 
 ## License
