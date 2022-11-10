@@ -13,11 +13,14 @@ body,
 }
 
 body {
-  font-family: sans-serif;
+  /* font-family: sans-serif; */
+  font-family:'Bebas Neue', cursive;
   background-color: #000000;
   /* ADDED BACKGROUND IMAGE */
   background-image: url(../images/wp3496493-matrix-wallpaper-binary.png);
   background-size: cover;
+
+  
 }
 
 .wrapper {
@@ -28,23 +31,22 @@ body {
 
 header {
   text-align: center;
-  padding: 20px;
+  padding: 25px;
   padding-top: 0px;
   color: hsl(0, 0%, 100%);
-  font-size: 25px;
-  /* background-color: pink; */
+  font-size: 40px;
   overflow: hidden;
 }
 
 .card {
   box-sizing: border-box;
-  border-color: chartreuse;
-  background-color: hsl(0, 0%, 0%);
+  border-color: rgb(255, 255, 255);
+  /* background-color: hsl(0, 0%, 0%); */
   border-radius: 5px;
   border-width: 1px;
   box-shadow: rgba(17, 16, 16, 0.15) 0px 2px 8px 0px;
-  color: hsl(93, 100%, 50%);
-  font-size: 18px;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
   /* CHANGED BOX TEXT ALIGMENT TO MIDDLE TITLE GENERATE A PASSWORD*/
   text-align: center;
   margin: 0 auto;
@@ -56,7 +58,7 @@ header {
   content: " ";
   display: block;
   width: 100%;
-  background: #e7e9eb;
+  background: #3cff00;
   height: 2px;
 }
 
@@ -72,7 +74,7 @@ header {
   content: " ";
   display: block;
   width: 100%;
-  background: #e7e9eb;
+  background:  #3cff00;
   height: 2px;
 }
 
@@ -84,8 +86,8 @@ header {
 
 .btn {
   /* border: none; */
-  border-color: rgb(255, 255, 255);
-  background-color: rgb(113, 226, 14);
+  border-color: rgb(168, 168, 168);
+  background-color: #3cff00;
   border-radius: 25px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px
     0px;
@@ -99,14 +101,18 @@ header {
   cursor: pointer;
   /* ADDED OVERFLOW HIDDIN TO RED BUTTON */
   overflow: hidden;
+  font-family:'Bebas Neue', cursive;
+
 }
 
 
   /* ADDED OVERFLOW HIDDIN TO H2 GENERATE PASSWORD TITLE */
 
 h2 {
+  padding: 10px;
   overflow: hidden;
-}
+
+} 
 /* ADDED HOVER TO GENERATE BUTTON  */
 .btn:hover {
   background-color: rgb(255, 0, 0);
@@ -160,3 +166,4 @@ button[disabled] {
     font-size: 0.8rem;
   }
 }
+

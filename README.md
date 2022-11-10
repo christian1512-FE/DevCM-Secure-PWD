@@ -1,101 +1,56 @@
 # DevCM-PP-002-22
-MODULEE 3 CHALLENGE RANDOM PASSWORD GENERATOR.
+MODULE 3 CHALLENGE RANDOM PASSWORD GENERATOR.
 
-## Your Task
+## Description
+The purpose of this challenge is to create a random password generator. The user is able to select different types of password criteria such as the length of the password anywhere from 8 characters up to 128 characters, adding uppercase, lowercase letters, and special charecter. One of the biggest benefits of this application is that the user is able to create strong passwords for greater security. 
 
-This week's Challenge requires you to modify starter code to create an application that enables employees to generate random passwords based on criteria that they’ve selected. This app will run in the browser and will feature dynamically updated HTML and CSS powered by JavaScript code that you write. It will have a clean and polished, responsive user interface that adapts to multiple screen sizes.
+## Usage
+Users have different options in order to create a random password. The user must click on the alert box "okay" to choose that option or "cancel" to not choose that option. Below are some screenshots of what the application looks like on the web browser.
 
-The password can include special characters. If you’re unfamiliar with these, see this [list of password special characters](https://www.owasp.org/index.php/Password_special_characters) from the OWASP Foundation.
+On this screenshot the user picked all of the option in which the random password will display in the middle box.
 
-## User Story
+![alt text](../DevCM-Secure-PWD/Assets/images/appmainpagescreenshot.jpg)
 
-```
-AS AN employee with access to sensitive data
-I WANT to randomly generate a password that meets certain criteria
-SO THAT I can create a strong password that provides greater security
-```
+The user have the option to pick a password length from 8 to 128 characters. 
 
-## Acceptance Criteria
+![alt text](../DevCM-Secure-PWD/Assets/images/firstalertpwdlength.jpg)
 
-```
-GIVEN I need a new, secure password
-WHEN I click the button to generate a password
-THEN I am presented with a series of prompts for password criteria
-WHEN prompted for password criteria
-THEN I select which criteria to include in the password
-WHEN prompted for the length of the password
-THEN I choose a length of at least 8 characters and no more than 128 characters
-WHEN asked for character types to include in the password
-THEN I confirm whether or not to include lowercase, uppercase, numeric, and/or special characters
-WHEN I answer each prompt
-THEN my input should be validated and at least one character type should be selected
-WHEN all prompts are answered
-THEN a password is generated that matches the selected criteria
-WHEN the password is generated
-THEN the password is either displayed in an alert or written to the page
-```
+If the user pick a password length thats not between 8 - 128 an alert box will display a message letting them know that they must pick a password length thats on the follows the criteria.
+![alt text](../DevCM-Secure-PWD/Assets/images/PWDL8-128.jpg)
 
-## Mock-Up
+If the user does not pick a number as the password length an alert box will pop up and let them know to only choose numbers.
 
-The following image shows the web application's appearance and functionality:
+![alt text](../DevCM-Secure-PWD/Assets/images/onlynumbersforpwdlength.jpg)
 
-![The Password Generator application displays a red button to "Generate Password".](./Assets/03-javascript-homework-demo.png)
+Option for the user to choose if they want to add lowercase letters to their password. 
 
-## Grading Requirements
+![alt text](../DevCM-Secure-PWD/Assets/images/lowercase.jpg)
 
-> **Note**: If a Challenge assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
->
-> * A repository that has no code
->
-> * A repository that includes a unique name but nothing else
->
-> * A repository that includes only a README file but nothing else
->
-> * A repository that only includes starter code
+Options for the user to choose if they want to add uppercase letters to their password. 
 
-This Challenge is graded based on the following criteria: 
+![alt text](../DevCM-Secure-PWD/Assets/images/uppercase.jpg)
 
-### Technical Acceptance Criteria: 40%
+Options for the user to choose if they want to add symbols to their password. 
 
-* Satisfies all of the preceding acceptance criteria.
+![alt text](../DevCM-Secure-PWD/Assets/images/symbols.jpg)
 
-### Deployment: 32%
+Options for the user to choose if they want to add numbers to their password. 
 
-* Application deployed at live URL.
+![alt text](../DevCM-Secure-PWD/Assets/images/number.jpg)
 
-* Application loads with no errors.
+If the user does not pick any option at all an alert box will display a message letting them know that they must pick at least one option. 
 
-* Application GitHub URL submitted.
+![alt text](../DevCM-Secure-PWD/Assets/images/mustpickoneoption.jpg)
 
-* GitHub repository that contains application code.
 
-### Application Quality: 15%
+## License
 
-* Application user experience is intuitive and easy to navigate.
+The MIT License (MIT)
 
-* Application user interface style is clean and polished.
+Copyright (c) 2022 Christian Mendez
 
-* Application resembles the mock-up functionality provided in the Challenge instructions.
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-### Repository Quality: 13%
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-* Repository has a unique name.
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains quality readme file with description, screenshot, and link to deployed application.
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application.
-
-* The URL of the GitHub repository, with a unique name and a readme describing the project.
-
-- - -
-© 2022 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.

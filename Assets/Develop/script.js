@@ -5,7 +5,7 @@
     //ADDED GENERATE PASSWORD FUNCTION
     function generatePassword () {
 
-      var usersChoice = prompt('Please choose the password length')
+      var usersChoice = prompt('Please choose the password length between from 8 to 128 characters. ')
                                   
       var pwdLength = parseInt(usersChoice)                                         //Integer. parseInt(String) CONVERTS A STRING INTO A NUMBER AS LONG AS THE STRING CAN BE CONVERTED INTO THE NUMBER.
 
@@ -32,9 +32,9 @@
       var specialSymbols = ['!', '"', '#', '$', '%', '&', '()', '*', '+', ',', '-', '.', "/", ':', ';', '<', '=', '>', '?', '@', '[']                               //" !"#$%&'()*+,-./:;<=>?@[\]^_`{|}~"
       var numbersList = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
 
-      var pickedList = []                         //EMPTY ARRAY WHERE WHATEVER THE USER PICKS WILL BE STORED. 
+      var pickedList = []                                   //EMPTY ARRAY WHERE WHATEVER THE USER PICKS WILL BE STORED. 
 
-      if (usersChoseLowercase === true) {         //IF USER PICKS LOWERCASE THEY WILL BE "PUSH"/ADDED TO THE PICKEDLIST EMPTY FUNCTION
+      if (usersChoseLowercase === true) {                   //IF STATEMENTS THAT DETERMINES WHAT THE USER CHOOSES. 
         pickedList = pickedList.concat(lowerCaseLetters)
       }
       if (usersChoseUppercase === true) {
@@ -50,14 +50,14 @@
         alert ('You must pick at least one charactor type')
         return;
       }
-      // console.log(pickedList);
-      // console.log(pickedList.length);
+      
+      // console.log(pickedList); FOR TESTING PURPOSE
+      // console.log(pickedList.length); FOR TESTING PURPOSE
 
-      let passwordPicked = '';
+      let passwordPicked = '';                    
 
-      for (let i = 0; i < pwdLength; i++) {
-        passwordPicked += pickedList[Math.floor(Math.random() * pickedList.length) ]; 
-        
+      for (let i = 0; i < pwdLength; i++) {                                             //FOR LOOP THAT PICKS THE RANDOM NUMBERS FROM THE ARRAY
+        passwordPicked += pickedList[Math.floor(Math.random() * pickedList.length) ];
       }
 
       return passwordPicked;
